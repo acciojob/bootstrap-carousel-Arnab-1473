@@ -4,12 +4,44 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-</head>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="carousel slide" id="myCarousel" data-ride="carousel">
+		<div class="carousel-inner">
+		<div class="item active first-slide" style="font-size: 30px; background-color: aqua; height: 100vh; width: 100%; ">
+			content1
+		</div>
+		<div class="item second-slide" style="font-size: 30px; background-color: aqua; height: 100vh; width: 100%; ">
+			content2
+		</div>
+		<div class="item third-slide" style="font-size: 30px; background-color: aqua; height: 100vh; width: 100%; ">
+			Content 3
+		</div>
+		<div class="item fourth-slide"style="font-size: 30px; background-color: aqua; height: 100vh; width: 100%; ">
+			Content 4
+		</div>
+		<div class="item fifth-slide" style="font-size: 30px; background-color: aqua; height: 100vh; width: 100%; ">Content 5</div>
+		</div>
+	</div>
+
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000"></div>
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
